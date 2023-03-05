@@ -1,0 +1,13 @@
+.left {
+  width: 30%;
+}
+.left span {
+  display: block;
+  text-decoration: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.select {
+  background-color: rgb(236, 236, 236);
+}

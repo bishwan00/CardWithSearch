@@ -1,0 +1,44 @@
+.containerr {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.btnn {
+  margin: 35px 35px 80px !important;
+  text-decoration: none !important;
+  padding: 10px 35px !important;
+  color: white !important;
+  border-radius: 200px !important;
+  font-weight: 300 !important;
+  text-align: center !important;
+}
+
+.btn-diactive {
+  background-color: rgb(0, 170, 122) !important;
+  background-image: radial-gradient(
+      at 46% 70%,
+      rgb(4, 139, 101) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 60% 89%, rgb(0, 170, 122) 0px, transparent 50%),
+    radial-gradient(at 78% 70%, rgb(0, 105, 75) 0px, transparent 50%),
+    radial-gradient(at 77% 69%, hsla(191, 73%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 11% 57%, rgb(0, 170, 77) 0px, transparent 50%),
+    radial-gradient(at 29% 54%, rgb(0, 170, 119) 0px, transparent 50%),
+    radial-gradient(at 67% 52%, rgb(20, 170, 0) 0px, transparent 50%) !important;
+
+  border: 1px rgb(0, 170, 122) solid !important;
+  transition: all 0.3s ease-out !important;
+}
+
+.btn-diactive:hover {
+  background-color: rgb(0, 170, 122) !important;
+  color: white !important;
+  transform: translateY(-0.4rem) !important;
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%) !important;
+}
+
+.btn-diactive:active {
+  transform: translateY(-0.1rem) !important;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%) !important;
+}

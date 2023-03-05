@@ -1,0 +1,14 @@
+.insert {
+  width: 100%;
+}
+
+.insert form {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.insert form input {
+  width: 70%;
+  margin-bottom: 50px;
+}

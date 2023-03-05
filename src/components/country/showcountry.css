@@ -1,0 +1,17 @@
+.cards {
+  width: 100%;
+  display: flex;
+  /* padding: 50px; */
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  justify-content: center;
+}
+.crew {
+  position: absolute;
+  left: 43%;
+}
+.crew h1 {
+  margin-left: 45%;
+  font-size: 300%;
+}
